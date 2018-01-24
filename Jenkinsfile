@@ -22,8 +22,8 @@ podTemplate(label: 'dockerbuild', nodeSelector: 'beta.kubernetes.io/os=linux', c
 			buildAndPublish('virtualagent-xenserver', registry, tag)
 			buildAndPublish('virtualagent-vmware', registry, tag)
 			buildAndPublish('virtualagent-nutanix', registry, tag)
-			buildAndPublish('virtualagent-hyperv', registry, tag)
-			buildAndPublish('virtualagent-azure', registry, tag)
+			//buildAndPublish('virtualagent-hyperv', registry, tag)
+			//buildAndPublish('virtualagent-azure', registry, tag)
 			
 			buildAndPublish('kube-base', registry, tag)
 			buildAndPublish('kube-master', registry, tag)
