@@ -1,0 +1,9 @@
+[nexus-virtualagents]
+name=Nexus Virtualagents
+baseurl=http://nexus.eng1.unidesk.com/content/repositories/virtualagents/
+enabled=1
+protect=0
+gpgcheck=0
+metadata_expire=30s
+autorefresh=1
+type=rpm-md

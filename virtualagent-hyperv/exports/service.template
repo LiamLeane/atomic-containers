@@ -1,0 +1,14 @@
+[Unit]
+Description=HyperV Agent
+After=network-online.target
+ConditionVirtualization=microsoft
+
+[Service]
+ExecStart=$EXEC_START
+ExecStop=$EXEC_STOP
+Restart=on-failure
+WorkingDirectory=$DESTDIR
+RuntimeDirectory=${NAME}
+
+[Install]
+WantedBy=multi-user.target
