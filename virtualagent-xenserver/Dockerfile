@@ -9,4 +9,6 @@ ADD nexus-virtualagents.repo /etc/yum.repos.d/nexus-virtualagents.repo
 
 ADD exports/service.template /exports/
 
-RUN dnf -y --setopt=tsflags=nodocs install e-guest-utilities xe-guest-utilities-xenstore && dnf clean all
+RUN dnf -y --setopt=tsflags=nodocs install xe-guest-utilities xe-guest-utilities-xenstore && dnf clean all
+
+RUN rm -f /etc/yum.repos.d/nexus-virtualagents.repo
