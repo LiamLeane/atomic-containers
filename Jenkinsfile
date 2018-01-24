@@ -4,7 +4,7 @@ podTemplate(label: 'dockerbuild', nodeSelector: 'beta.kubernetes.io/os=linux', c
 	], volumes: [hostPathVolume(hostPath: '/var/run/docker.sock', mountPath: '/var/run/docker.sock')]) {
 	node('dockerbuild')
 	{		
-		def tag = checkoutAndGetTag(true)		
+		def tag = ""		
 		def registry = "appopsos.azurecr.io"
 		
 		stage ("Git")
