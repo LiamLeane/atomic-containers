@@ -1,9 +1,0 @@
-[openlogic-microsoft]
-name=OpenLogic Microsoft
-baseurl=http://olcentgbl.trafficmanager.net/openlogic/7/openlogic/x86_64/
-enabled=1
-protect=0
-gpgcheck=0
-metadata_expire=30s
-autorefresh=1
-type=rpm-md
