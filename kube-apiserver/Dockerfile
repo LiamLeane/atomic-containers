@@ -1,4 +1,4 @@
-FROM appopsos.azurecr.io/kube-master:latest
+FROM quay.io/liamleane/kube-master:latest
 
 ENV container=docker
 ENV NAME=kube-apiserver VERSION=0.1 RELEASE=8 ARCH=x86_64

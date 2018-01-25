@@ -1,4 +1,4 @@
-FROM appopsos.azurecr.io/kube-node:latest
+FROM quay.io/liamleane/kube-node:latest
 
 LABEL name="kube-proxy"
 LABEL version="1.0" 

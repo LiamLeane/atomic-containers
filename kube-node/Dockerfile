@@ -1,4 +1,4 @@
-FROM appopsos.azurecr.io/kube-base:latest
+FROM quay.io/liamleane/kube-base:latest
 
 ENV NAME=kube-node VERSION=0 RELEASE=0 ARCH=x86_64
 

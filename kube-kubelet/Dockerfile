@@ -1,4 +1,4 @@
-FROM appopsos.azurecr.io/kube-node:latest
+FROM quay.io/liamleane/kube-node:latest
 
 ENV container=docker
 ENV NAME=kube-kubelet VERSION=0 RELEASE=8 ARCH=x86_64
