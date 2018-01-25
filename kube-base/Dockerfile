@@ -1,4 +1,4 @@
-FROM registry.fedoraproject.org/fedora:27
+FROM registry.fedoraproject.org/fedora:rawhide
 
 ADD kubernetes.repo /etc/yum.repos.d/kubernetes.repo
 
